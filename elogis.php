@@ -14,18 +14,19 @@
 </head>
 <body>
    <div class="login"  id="login form">
+    
       <h1>E-logistic</h1>
 
-      <form name="f1" action = "action.php" onsubmit = "return validation()" method = "POST">  
-            <p>  
-                <label> UserName</label>  
+      <form class="form" name="f1" action = "action.php" onsubmit = "return validation()" method = "POST">  
+            <p class="uname">  
+                <label> UserName</label><br>
                 <input type = "text" id ="user" name  = "user" required/>  
             </p>  
-            <p>  
-                <label> Password </label>  
+            <p class="pass">  
+                <label> Password </label><br>
                 <input type = "password" id ="pass" name  = "pass" required/>  
             </p>  
-            <p>     
+            <p class="btn">     
                 <input type =  "submit" id = "btn" value = "Login"/>  
             </p>  
         </form>  
